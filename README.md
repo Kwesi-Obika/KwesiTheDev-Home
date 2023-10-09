@@ -19,15 +19,15 @@ Hello, I am Kwesi Obika the Developer. This website is here to show my web devel
 ## Why
 Everyone can benifit from owning a website and I plan to use this site to try out experimental ideas and platforms that aren't ready for a production build
 ## How
-KwesiThe.Dev[https://kwesithe.dev] will work primarily like a blog site with some libraries included for testing 
+[KwesiThe.Dev](https://kwesithe.dev) will work primarily like a blog site with some libraries included for testing 
 
 ### Hosting:
-The site will be hosted on Netlify[https://netlify.com] due to its support for the JAMstack (JavaScript, API, Markup) netlify also enable flexability to migrate to a new cloud backend in the future if needed.
+The site will be hosted on [Netlify](https://netlify.com) due to its support for the JAMstack (JavaScript, API, Markup) netlify also enable flexability to migrate to a new cloud backend in the future if needed.
 
 ### Site Stack
 Are websites stacks anymore? Well this one is more like a buffet
 I will be writing and publishing blog articles on a headless wordpress instance as a CMS
-Front-end UI will be developed here publicly using NEXT.js[https://nextjs.org]
+Front-end UI will be developed here publicly using [NEXT.js](https://nextjs.org)
 Outside of those two componets I will connect to SendGrid for email management and Twilio for Voice and Text features of the website
 I'll be adding new package when I come across something compelling.
 
