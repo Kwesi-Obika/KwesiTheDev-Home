@@ -1,30 +1,22 @@
-# Next.js Toolbox Template
+# Kwesi The Dev Website
 
-![Netlify + Next](https://user-images.githubusercontent.com/43764894/223561089-2b729a3d-2963-4fc1-ad9b-a8618cd3c87e.png)
+![Kwesi The Dev Logo - Intitials K A O](https://user-images.githubusercontent.com/43764894/223561089-2b729a3d-2963-4fc1-ad9b-a8618cd3c87e.png)
 
-This is a [Next.js](https://nextjs.org/) v12 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It is a reference on how to integrate commonly used features within Netlify for Next.js. 
+Hello, I am Kwesi Obika the Developer. This website is here to show my web developement work and as a blog to post my ideas and stories around web development.
 
 ## Table of Contents:
 
-- [Getting Started](#getting-started)
-- [Deploy to Netlify](#deploy-to-netlify)
-  - [Deploy using the Netlify CLI](#deploy-using-the-netlify-cli)
-  - [Running Locally](#running-locally)
-- [Forms](#forms)
-  - [Adding a Custom Submission Page](#adding-a-custom-submission-page)
-  - [Blocking Bot Spam with a Honeypot Field](#blocking-bot-spam-with-a-honeypot-field)
-  - [Forms Resources](#forms-resources)
-- [Netlify Functions](#netlify-functions)
-  - [Functions Resources](#functions-resources)
-- [Redirects](#redirects)
-  - [Redirect Resources](#redirect-resources)
-- [Next.js Toolbox Template Video Walkthrough](#nextjs-toolbox-template-video-walkthrough)
-- [Testing](#testing)
-  - [Included Default Testing](#included-default-testing)
-  - [Removing Renovate](#removing-renovate)
-  - [Removing Cypress](#removing-cypress)
+- [Why](#why)
+- [How](#how)
+  - [Hositng](#hosting)
+  - [Site Stack](#site-stack)
+  - [Updates](#updates)
+- [Goal](#goal)
+- [Metrics](#Metrics)
+  - [Organic Traffic](#organic-traffic)
+  - [Post Frequency](#post-frequency)
 
-## Getting Started
+## Why
 
 After installing the dependencies with `npm install` or `yarn install`, run the development server:
 
@@ -38,7 +30,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Deploy to Netlify
+## How
 
 Want to deploy immediately? Click this button
 
@@ -46,7 +38,7 @@ Want to deploy immediately? Click this button
 
 Clicking this button will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
 
-### Deploy using the Netlify CLI:
+### Hosting:
 Click the 'Use the Template' button at the top of this repo or clone it with the `git clone` command. Then install the Netlify CLI tool and run `netlify init`. Or straight from the Netlify CLI, use the `netlify sites:create-template` command in you terminal ([learn more about this command here](https://www.netlify.com/blog/create-a-site-from-a-template-using-the-netlify-cli)) to do the entire flow for you.
 
 ```bash
@@ -65,7 +57,7 @@ You can also use `netlify deploy (--prod)` to manually deploy and `netlify open`
 
 > 💡 we only have so many keystrokes to give, use `ntl` shorthand for `netlify` or make [an alias of your own](https://www.netlify.com/blog/2020/04/12/speed-up-productivity-with-terminal-aliases/) to save hours...of accumulated miliseconds
 
-### Running Locally
+### Site Stack
 
 You can use `netlify dev` from the command line to access project information like environment variables as well as
 
@@ -74,14 +66,14 @@ You can use `netlify dev` from the command line to access project information li
 - share a live session via url with `netlify dev --live`
 - [and more](https://cli.netlify.com/netlify-dev/) :)
 
-### Deployment Resources
+### Updates
 
 - [CLI docs](https://docs.netlify.com/cli/get-started/)
 - [File-based Netlify Configuration](https://docs.netlify.com/configure-builds/file-based-configuration/)
 - [Netlify Dev Overview](https://www.youtube.com/watch?v=RL_gtVZ_79Q&t=812s)
 - [Netlify Edge, CDN deployment](https://www.netlify.com/products/edge/)
 
-## Forms
+## Goal
 
 Netlify Forms are a way to wire up your native HTML into being able to seamlessly handle submissions. To get a form working, we need to add two extra things:
 
@@ -94,12 +86,6 @@ Adding this attribute to our `form` tag will let Netlify know when it loads the 
 Adding this extra input allows our form to be given a name that Netlify can store submissions to. It is a hidden input so your users won't see it but it will pass along the name of our form to Netlify when we submit. In our Netlify Admins site under Forms, we will see our Active Form named `feedback` and all submissions will go there.
 
 With both of those we're ready for folks to give us feedback!
-
-### Adding a custom submission page
-
-While Netlify provides a default submission page for folks, we can customize it as well! With the `action` attribute on the `form` tag we will be able to direct our users to our own page.
-
-In [`components/FeedbackForm.js`](./components/FeedbackForm.js) you'll see the form has the attribute `action="/success"` this will take our user to the custom route `/success` which we created under [`pages/success.js`](./pages/success.js). As long as the page exists, you can direct folks to it!
 
 ### Blocking bot spam with a honeypot field
 
@@ -126,12 +112,8 @@ For this to work we also need to add a `data-netlify-honeypot` attribute to the 
 
 ### Forms Resources
 
-- [Netlify Forms Setup](https://docs.netlify.com/forms/setup/)
-- [Netlify Forms](https://www.netlify.com/products/forms/#main)
-- [Netlify Forms - Form Triggered Functions](https://docs.netlify.com/functions/trigger-on-events/)
-- [Netlify Forms - Using reCAPTCHA 2](https://docs.netlify.com/forms/spam-filters/#recaptcha-2-challenge)
-
-## Netlify Functions
+- [Netlify Forms Setup](https://docs.netlify.com/forms/
+## Metrics
 
 With Netlify, you can build out server-side code without having to setup and maintain a dedicated server. Inside of our default folder path, [`netlify/functions`](./netlify/functions) you can see an example of the format for JavaScript functions with the [`joke.js`](./netlify/functions/joke.js) file.
 
