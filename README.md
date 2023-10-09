@@ -1,6 +1,6 @@
 # Kwesi The Dev Website
 
-![Kwesi The Dev Logo - Intitials K A O](https://user-images.githubusercontent.com/43764894/223561089-2b729a3d-2963-4fc1-ad9b-a8618cd3c87e.png)
+![Kwesi The Dev Logo - Intitials K A O](./public/KwesiTheDevLogo3.png)
 
 Hello, I am Kwesi Obika the Developer. This website is here to show my web developement work and as a blog to post my ideas and stories around web development.
 
