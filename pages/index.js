@@ -9,18 +9,15 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Next.js Toolbox</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/KwesiFavicon.png" />
       </Head>
 
       <main>
-        <Header title="Next.js Toolbox" />
+        <Header title="Hello I'm Kwesi" />
         <hr />
         <p className="description">
-          Here's an example of a Netlify Form! When you fill this out, the
-          submissions can be found in the Netlify Admin site.
+          I am a Developer.
         </p>
-        <FeedbackForm />
-        <JokeBlock />
       </main>
       <Footer />
     </div>
