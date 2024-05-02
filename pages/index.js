@@ -12,10 +12,13 @@ export default function Home() {
         <link rel="icon" href="/KwesiFavicon.png" />
       </Head>
 
+      <Header title="Hello I'm Kwesi Ahoto Obika" />
       <main>
-        <Header title="Hello I'm Kwesi" />
+        
         <hr />
         <p className="description">
+          I am an environmental technologist <br/>
+          
           I am a Developer. (testing)
         </p>
       </main>
