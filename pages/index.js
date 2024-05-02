@@ -16,7 +16,7 @@ export default function Home() {
         <Header title="Hello I'm Kwesi" />
         <hr />
         <p className="description">
-          I am a Developer.
+          I am a Developer. (testing)
         </p>
       </main>
       <Footer />

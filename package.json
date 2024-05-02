@@ -1,12 +1,10 @@
 {
   "name": "nextjs-toolbox",
   "version": "1.0.0",
-  "author": "Netlify Inc",
+  "author": "Object Oriented Development LLC",
   "contributors": [
-    "Tara Manicsic",
-    "Prince Wilson",
-    "Charlie Gerard",
-    "Ben Hong"
+    "Kwesi Ahoto Obika",
+    "_OOD"
   ],
   "homepage": "https://github.com/netlify-templates/nextjs-toolbox",
   "bugs": {
